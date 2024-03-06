@@ -38,12 +38,6 @@ function onDevToolsOpen() {
 
 onDevToolsOpen();
 
-const accounts = [
-    { username: "Mom", password: "271272", role: "Mom" },
-    { username: "Sis", password: "090595", role: "Sis" },
-    { username: "Babe", password: "040600", role: "Babe" },
-];
-
 function signUp(e) {
     event.preventDefault();
     var username = document.getElementById("username").value;
@@ -115,5 +109,5 @@ function signUp(e) {
     }
     // Check if the user exists in local storage.
 
-  
-  }
+}
+

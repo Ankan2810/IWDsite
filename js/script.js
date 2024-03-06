@@ -74,7 +74,7 @@ function signUp(e) {
     switch(username){
         case "Mom" :
             if(password ==="271272") {
-                alert("Đăng nhập thành công! Chào mẹ");
+                alert("Đăng nhập thành công! Helu mẹ mìn");
                 window.location.href = "../mom/index.html";
                 break;
             }

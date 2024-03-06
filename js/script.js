@@ -1,7 +1,6 @@
 $(document).ready(function() {
     var envelope = $('#envelope');
     var btn_open = $("#open");
-    var btn_reset = $("#reset");
     var letter = $(".letter");
     var hidden = $("#hiddenLetter");
 
@@ -13,9 +12,8 @@ $(document).ready(function() {
         open();
     });
 
-    btn_reset.click(function() {
-        close();
-    });
+
+
 
     function open() {
         envelope.addClass("open").removeClass("close");
@@ -28,6 +26,7 @@ $(document).ready(function() {
 
     function openLetter(){
         hidden.addClass("visible").removeClass("hidden");
+        btn_open.addClass("hidden")
         envelope.addClass("hidden").removeClass("open");
     }
 });

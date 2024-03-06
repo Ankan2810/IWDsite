@@ -75,26 +75,26 @@ function signUp(e) {
         case "Mom" :
             if(password ==="271272") {
                 alert("Đăng nhập thành công! Helu mẹ mìn");
-                window.location.href = "../mom/index.html";
+                window.location.href = "../mom.html";
                 break;
             }
         case "Sis" :
             if(password ==="090595"){
                 alert("Login Successful! Hello sít tờ");
-                window.location.href = "../sis/index.html";
+                window.location.href = "../sis.html";
                 break;  
             }
         case "Bae" :
             if(password ==="040600"){
                 alert("Login Successful! Hello bấy bì");
-                window.location.href = "../babe/index.html";
+                window.location.href = "../babe.html";
                 break;  
 
             }
         case data.username :
             if(password === data.password){
                 alert("Login Successful!");
-                window.location.href = "../woman/index.html";
+                window.location.href = "../woman.html";
                 break;  
 
             }

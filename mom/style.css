@@ -309,3 +309,49 @@ body {
   background-color: #fc9d9d;
   color: #a10000;
 }
+
+@media(min-width: 1024px) {
+  .cLine1, .cLine2, .cLine4{
+  
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+  .cLine4{
+    text-align: end;
+  }
+}
+
+@media(min-width: 1024px) {
+  .cLine1, .cLine2,.cLine3, .cLine4{
+  
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+  .cLine3, .cLine4{
+    text-align: end;
+  }
+}
+
+@media(min-width: 740px) and (max-width: 1023px){
+ 
+  .cLine1, .cLine2, .cLine3, .cLine4{
+    font-size: 2em;
+    margin-top: 10%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
+  .cLine3, .cLine4{
+    text-align: end;
+  }
+  .visible{
+    margin-top: 10%;
+    top: 0%;
+    margin-left: 10%;
+    left: 0%;
+    width: 80%;
+    height: 80%;
+  }
+}

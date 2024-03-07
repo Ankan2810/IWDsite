@@ -53,10 +53,10 @@ h2, .log{
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
-    border: none;
+    border: 2px solid cornsilk; /* Độ dày là 2px, màu sắc là đen (#333) */
     outline: none;
-    border-bottom: 2px solid black;
-    background: transparent;
+    border-bottom: 2px solid cornsilk;
+    background-color: antiquewhite;
 }
 
 /* .input1 i{
@@ -103,7 +103,7 @@ h2, .log{
 
 .input-mail::placeholder{
     font-size: 18px;
-    color: aliceblue;
+    color: lightslategrey;
 }
 
 .input-mail:focus ~ label, 
